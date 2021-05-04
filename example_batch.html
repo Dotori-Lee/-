@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example batch</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 300px;
+            border: 2px solid blue;
+            overflow: hidden;
+            position: relative;
+        }
+        .circle{
+            position: absolute;
+            width: 100px; height: 100px;
+            border-radius: 50% 50%;
+        }
+        #red{
+            background: red;
+            left:10px; top: 100px;
+
+        }
+        #green{
+            background: green;
+            left: 135px; top: 100px;
+        }
+        #blue{
+            background: blue;
+            left: 260px; top: 100px;
+        }
+        #yellow{
+            background: yellow;
+            left: 385px; top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>텍스트 위치</h1>
+    <div id="container">
+        <div id="red" class="circle"></div>
+        <div id="green" class="circle"></div>
+        <div id="blue" class="circle"></div>
+        <div id="yellow" class="circle"></div>
+    </div>
+    <h1>더미 텍스트 위치</h1>
+    
+</body>
+</html>
