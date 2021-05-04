@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+p.test {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black ;
+    overflow: hidden;
+    text-overflow:  clip;
+}
+p.test2 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black ;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+    </style>
+</head>
+<body>
+    <h1>text overflow</h1>
+    <p> What is Lorem Ipsum?</p>
+    <h2>Textflow clip</h2>
+    <p class='test'>Where does it come from?</p>
+    <h2>overflow ellipsis</h2>
+    <p class='test2'>hello nice to meet you 아니아니 영준방~</p>
+</body>
+</html>
